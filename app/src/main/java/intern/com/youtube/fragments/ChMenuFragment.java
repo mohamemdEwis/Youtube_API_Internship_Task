@@ -26,7 +26,7 @@ public class ChMenuFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater,@Nullable ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_live, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_ChMenu, container, false);
         RecyclerView recyclerView = (RecyclerView)rootView.findViewById(R.id.ch_list);
         ChannelsAdapterr itemArrayAdapter = new ChannelsAdapterr();
        recyclerView.setAdapter(itemArrayAdapter);
